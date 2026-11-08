@@ -1,0 +1,116 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #243247;
+    margin: 0;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #17365d;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #17365d;
+    margin-top: 30px;
+}
+
+h3 {
+    color: #264b73;
+}
+
+/* FORMULÁRIOS */
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    margin-top: 5px;
+    max-width: 100%;
+}
+
+/* BOTÕES */
+
+button {
+    background-color: #1769aa;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #104b7a;
+}
+
+button:disabled {
+    background-color: #a0aab5;
+    cursor: not-allowed;
+}
+
+/* CARTÕES DOS ROBÔS */
+
+.robo-card {
+    background-color: white;
+    border-left: 5px solid #16a085;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.robo-card h3 {
+    margin-top: 0;
+}
+
+.robo-card p {
+    line-height: 1.8;
+}
+
+.robo-card form {
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+/* CONTADOR */
+
+.contador {
+    background-color: #17365d;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* SEPARADORES */
+
+hr {
+    border: none;
+    border-top: 1px solid #d9e1ea;
+    margin: 25px 0;
+}

@@ -1,0 +1,197 @@
+
+/* CENTRAL DE ROBÔS — RETRÔ ESPACIAL */
+
+:root {
+    --fundo: #252729;
+    --verde: #76B5A4;
+    --amarelo: #F5B968;
+    --rosa: #E96C7A;
+    --creme: #F3DEB1;
+    --escuro: #252729;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 35px 20px;
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: var(--creme);
+
+    background-color: var(--fundo);
+
+    background-image:
+        radial-gradient(circle at 12% 18%,
+            var(--amarelo) 1px, transparent 2px),
+        radial-gradient(circle at 85% 30%,
+            var(--rosa) 2px, transparent 3px),
+        radial-gradient(circle at 60% 70%,
+            var(--verde) 1px, transparent 2px);
+
+    background-size: 130px 130px;
+}
+
+/* TÍTULOS */
+
+h1 {
+    color: var(--amarelo);
+    text-align: center;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 35px;
+    text-shadow: 4px 4px 0 var(--rosa);
+}
+
+h2 {
+    color: var(--rosa);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 35px;
+}
+
+h3 {
+    color: var(--amarelo);
+}
+
+/* CONTADOR DE RECARGAS */
+
+.contador {
+    background: var(--verde);
+    color: var(--escuro);
+    padding: 20px;
+    text-align: center;
+    border: 3px solid var(--amarelo);
+    border-radius: 4px;
+    box-shadow: 7px 7px 0 var(--rosa);
+    margin-bottom: 35px;
+}
+
+/* FORMULÁRIO DE CADASTRO */
+
+form {
+    background: var(--creme);
+    color: var(--escuro);
+    padding: 25px;
+    border: 3px solid var(--verde);
+    border-radius: 5px;
+    box-shadow: 8px 8px 0 var(--rosa);
+    margin-bottom: 25px;
+}
+
+label {
+    font-weight: bold;
+    color: var(--escuro);
+}
+
+input,
+select {
+    background: #fffaf0;
+    color: var(--escuro);
+    border: 2px solid var(--escuro);
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 8px;
+    max-width: 100%;
+    font-size: 15px;
+}
+
+input:focus,
+select:focus {
+    outline: 3px solid var(--rosa);
+}
+
+/* BOTÕES */
+
+button {
+    background: var(--rosa);
+    color: var(--escuro);
+    border: 2px solid var(--escuro);
+    border-radius: 3px;
+    padding: 12px 22px;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+button:hover {
+    background: var(--amarelo);
+    transform: translateY(-3px);
+}
+
+button:disabled {
+    background: #b7b7b7;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* CARTÕES DOS ROBÔS */
+
+.robo-card {
+    background: var(--verde);
+    color: var(--escuro);
+    border: 3px solid var(--amarelo);
+    border-radius: 5px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 8px 8px 0 var(--rosa);
+    position: relative;
+}
+
+.robo-card h3 {
+    color: var(--escuro);
+    font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid var(--rosa);
+    padding-bottom: 12px;
+}
+
+.robo-card p {
+    line-height: 1.9;
+}
+
+/* FORMULÁRIO DENTRO DO CARTÃO */
+
+.robo-card form {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 15px 0 0;
+}
+
+/* SEPARADORES */
+
+hr {
+    border: none;
+    border-top: 2px dashed var(--amarelo);
+    margin: 35px 0;
+}
+
+/* AJUSTES PARA CELULAR */
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px 15px;
+    }
+
+    h1 {
+        font-size: 29px;
+        letter-spacing: 2px;
+    }
+
+    form,
+    .robo-card {
+        padding: 18px;
+    }
+
+    button {
+        max-width: 100%;
+    }
+}

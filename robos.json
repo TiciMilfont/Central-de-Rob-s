@@ -1,0 +1,70 @@
+[
+    {
+        "nome": "R2D2",
+        "modelo": "Explorador",
+        "energia": 130
+    },
+    {
+        "nome": "Buarco",
+        "modelo": "Defensor",
+        "energia": 170,
+        "potencia": 30,
+        "operador": "Mars"
+    },
+    {
+        "nome": "Atlas",
+        "modelo": "Defensor",
+        "energia": 160,
+        "potencia": 30,
+        "operador": "Ana"
+    },
+    {
+        "nome": "Atlas",
+        "modelo": "Defensor",
+        "energia": 150,
+        "potencia": 30,
+        "operador": "Ana"
+    },
+    {
+        "nome": "Atlas",
+        "modelo": "Defensor",
+        "energia": 150,
+        "potencia": 30,
+        "operador": "Ana"
+    },
+    {
+        "nome": "Atlas",
+        "modelo": "Defensor",
+        "energia": 150,
+        "potencia": 30,
+        "operador": "Ana"
+    },
+    {
+        "nome": "ooo",
+        "modelo": "Explorador",
+        "energia": 100,
+        "potencia": 20,
+        "operador": "olo"
+    },
+    {
+        "nome": "ooo",
+        "modelo": "Explorador",
+        "energia": 100,
+        "potencia": 20,
+        "operador": "olo"
+    },
+    {
+        "nome": "Ammma",
+        "modelo": "Explorador",
+        "energia": 100,
+        "potencia": 20,
+        "operador": "Jorge"
+    },
+    {
+        "nome": "Ronotex",
+        "modelo": "Explorador",
+        "energia": 110,
+        "potencia": 20,
+        "operador": "Mars"
+    }
+]

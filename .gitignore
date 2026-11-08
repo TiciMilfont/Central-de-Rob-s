@@ -1,0 +1,6 @@
+# Arquivos temporários
+*.log
+.vscode/
+
+# Configurações e senhas locais
+.env
